@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    background-image: url('./Images/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    background-color: #f5e6e8;
+    padding-top: 50px;
+}
+
+#title h1 {
+    font-size: 4em;
+    margin: 0;
+    color: #004d40;
+}
+
+#Introduction {
+    background-color: #f8f9fa; /* Light gray background for contrast */
+    color: #2c3e50; /* Dark teal text color for readability */
+}
+
+#Introduction img.rounded-circle {
+    border: 5px solid #2c3e50; /* Dark teal border */
+    padding: 5px; /* Padding to create space between the image and the border */
+}
+
+#Introduction h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Introduction p {
+    font-size: 1.25em;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Skills {
+    background-color: #ffffff; /* White background for contrast */
+    color: #2c3e50; /* Dark teal text color for readability */
+}
+
+#Skills h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Skills .skill {
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+
+#Skills .skill img {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #eaeaea;
+}
+
+#Skills .skill h3 {
+    font-size: 1.5em;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Skills .skill p {
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Contact {
+    background-color: #f8f9fa; /* Light gray background for contrast */
+    color: #2c3e50; /* Dark teal text color for readability */
+}
+
+#Contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Contact p {
+    font-size: 1.25em;
+    margin-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Contact .form-control {
+    font-size: 1.1em;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #eaeaea;
+}
+
+#Contact .btn-primary {
+    background-color: #2c3e50; /* Dark teal */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+#Contact .btn-primary:hover {
+    background-color: #1a242f; /* Slightly darker teal */
+}
+
+#footer {
+    background-color: #2c3e50; /* Dark teal background */
+    color: #ffffff; /* White text */
+}
+
+#footer p {
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#footer .social-icons img {
+    filter: invert(100%); /* Invert colors for white icons */
+}
+
+#footer .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
